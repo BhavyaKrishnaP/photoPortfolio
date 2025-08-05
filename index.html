@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lobster&family=Playwrite+PL:wght@100..400&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Animate style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- navbar -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./images/Icon.png" alt="no image">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="links" href="#home">Home</a></li>
+                <li class="list-items"><a class="links" href="#about">About</a></li>
+                <li class="list-items"><a class="links" href="#skill">Skill</a></li>
+                <li class="list-items"><a class="links" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__rotateIn" id="username">I'm Maria <span id="lname">Joe</span></h1>
+                <p id="user-details">This is my official portfolio website to showcase my journey <br> and work in
+                    photography.</p>
+                <a id="download" href="./images/awareness waste.pdf" download>VIEW BROUCHURE</a>
+            </div>
+            <div class="home-img">
+                <!-- shape -->
+                <img class="group1" id="shape" src="./images/bg.png" alt="shape">
+                <!-- girl -->
+                <img class="group1" id="girl" src="./images/ladyy.png" alt="girl">
+
+            </div>
+        </section>
+
+        <!-- about -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+                <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="aboutImg">
+                    <img class="
+                    img1" src="./images/abimg.png" alt="about me">
+                </div>
+                <div class="aboutContent">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum at voluptate ad voluptates iste
+                        accusantium iusto similique eius quis quas ipsa voluptatibus, labore hic quia architecto.</p>
+
+                    <div class="information">
+                        <div class="inforBox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Maria Joe</span>
+                        </div>
+                        <div class="inforBox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>8900234510</span>
+                        </div>
+                        <div class="inforBox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>maria@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- skills -->
+        <section id="skill">
+            <div class="sectionhead">
+                <h2 class="mainHead">Skills</h2>
+                <span class="subHead">My Skills</span>
+            </div>
+            <div class="skillContent">
+                <div class="progressBars">
+
+                    <!-- Portrait div -->
+                    <div class="bars">
+                        <h3 class="barHead">Portrait</h3>
+                        <span class="barPercent">93%</span>
+                        <div class="baseBar"></div>
+                        <div class="baseBar portBar" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"></div>
+                    </div>
+                    <!-- landscape -->
+                    <div class="bars">
+                        <h3 class="barHead">Landscape</h3>
+                        <span class="barPercent">87%</span>
+                        <div class="baseBar"></div>
+                        <div class="baseBar landBar" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"></div>
+                    </div>
+                    <!-- editing -->
+                    <div class="bars">
+                        <h3 class="barHead">Editing</h3>
+                        <span class="barPercent">91%</span>
+                        <div class="baseBar"></div>
+                        <div class="baseBar editBar" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"></div>
+                    </div>
+                    <!-- wildlife -->
+                    <div class="bars">
+                        <h3 class="barHead">WildLife</h3>
+                        <span class="barPercent">83%</span>
+                        <div class="baseBar"></div>
+                        <div class="baseBar wildBar" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"></div>
+                    </div>
+                </div>
+
+                <div class="skillImage">
+                    <img class="mySkill" src="./images/skillimg.png" alt="skills">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="sectionhead">
+                <h2 class="mainHead">Contacts</h2>
+                <span class="subHead">My Contacts</span>
+            </div>
+            <div class="iconCollection">
+                <!-- Linkedin -->
+                <div class="icon">
+                    <a href="" target="_blank">
+                        <i class="fa-brands fa-linkedin-in brands"></i>
+                    </a>
+                </div>
+                <!-- github -->
+                <div class="icon">
+                    <a href="" target="_blank">
+                        <i class="fa-brands fa-github brands"></i>
+                    </a>
+                </div>
+                <!-- twitter -->
+                <div class="icon">
+                    <a href="" target="_blank">
+                        <i class="fa-brands fa-square-twitter brands"></i>
+                    </a>
+                </div>
+                <!-- whatsapp -->
+                <div class="icon">
+                    <a href="" target="_blank">
+                        <i class="fa-brands fa-whatsapp brands"></i>
+                    </a>
+                </div>
+                <!-- instagram -->
+                <div class="icon">
+                    <a href="" target="_blank">
+                        <i class="fa-brands fa-instagram brands"></i>
+                    </a>
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="" target="_blank">
+                        <i class="fa-brands fa-facebook brands"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- footer -->
+        <footer>
+            <p id="copyright">&copy;Maria Joe Photography Portfolio - June 2024, &reg;All Rigghts Reserved</p>
+            <div class="icon upArrow">
+                <a href="#container" target="_blank">
+                    <i class="fa-solid fa-angle-up brands"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
+    <!-- AOS animation js script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
